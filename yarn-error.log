@@ -1,0 +1,31 @@
+Arguments: 
+  /home/lucas/.nvm/versions/node/v11.9.0/bin/node /home/lucas/.nvm/versions/node/v11.9.0/bin/yarn init
+
+PATH: 
+  /home/lucas/.rbenv/shims:/home/lucas/.rbenv/bin:/bin:/home/lucas/.nvm/versions/node/v11.9.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/lucas/Documents/projects/mon-notifications/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /home/lucas/.nvm/versions/node/v11.9.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/lucas/.nvm/versions/node/v11.9.0/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /home/lucas/.nvm/versions/node/v11.9.0/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
