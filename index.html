@@ -2,18 +2,24 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="app/assets/css/index.css">
+    <title>Mon</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <h1 class="welcome-title">Mon</h2>
+    <h4 class="welcome-title">My own notifications</h4>
+    
+    
+      <input type="text" placeholder="Time">
+      <button onclick="createNotification('123', '10:00', 'Alarm 1')">Save</button>
+      <button onclick="getNotifications()">Load</button>
 
     <script>
       // You can also require other files to run in this process
-      require('./renderer.js')
-    </script>
+      
+      // require('./app/notifications/storage.js')
+      </script>
+      <script src="app/notifications/storage.js"></script>
   </body>
 </html>
