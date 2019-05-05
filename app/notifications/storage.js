@@ -13,8 +13,15 @@ function getNotifications() {
 
 function editNotification(id, time, name) {
   let notifs = loadNotifications()
-  index = findNotification(id, notifs)
-  notifs[index] = JSON.stringify({ id: id, time: time, name: name })
+  let index = findNotification(id, notifs)
+  notifs[index] = { id: id, time: time, name: name }
+  storage.setItem("notifications", JSON.stringify(notifs))
+}
+
+function deleteNotification(id) {
+  let notifs = loadNotifications()
+  let index = findNotification(id, notifs)
+  notifs.splice(index, 1)
   storage.setItem("notifications", JSON.stringify(notifs))
 }
 
