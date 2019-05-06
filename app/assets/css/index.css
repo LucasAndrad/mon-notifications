@@ -4,3 +4,18 @@ body {
 .welcome-title {
   text-align: center;
 }
+.new-notifi {
+  float: right;
+  margin-right: 40px;
+  background-color: #61ee79;
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #494949;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.new-notifi:hover {
+  background-color: #8cf89e;
+}
