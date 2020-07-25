@@ -1,6 +1,6 @@
 # THIS IS JUST A TEMPLATE FOR README, I'LL UPDATE THIS LATTER
 
-# MOn Nitifications
+# MOn Notifications
 
 One Paragraph of project description goes here
 
